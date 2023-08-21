@@ -1,0 +1,126 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.question-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+  justify-content: space-between;
+  min-height: 400px;  
+
+}
+
+.question-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 500px; 
+}
+
+
+
+.question-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type='text'],
+.form-group input[type='number'],
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.generate-button {
+  display: flex;
+  flex-basis: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #08da0f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.generate-button:hover {
+  background-color: #0bda15;
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.success-message {
+  color: green;
+  margin-top: 20px;
+}
+.message-container {
+  min-height: 60px; 
+}
+.loading-dots {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  margin:  5px;
+  background-color: #000;
+  border-radius: 100%;
+  animation: bounce 1s infinite ease-in-out;
+}
+
+.dot1{
+  animation-delay: 0.2s;
+  color:#45a049
+}
+.dot2{
+  animation-delay: 0.4s;
+}
+.dot3{
+  animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+

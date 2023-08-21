@@ -1,0 +1,43 @@
+/* ProblemSet page styling */
+
+/* Page container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Page title */
+.page-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Question card */
+.question-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.question-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.question-difficulty {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.question-description {
+    margin-bottom: 10px;
+}
+
+.start-button {
+    display: block;
+    margin-top: 10px;
+}
